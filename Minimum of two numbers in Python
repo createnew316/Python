@@ -1,0 +1,26 @@
+Type-1
+The simplest way to find minimum of two numbers in Python is by using built-in min() function.
+
+a=16
+b=3
+
+print(min(a,b))
+
+Output-3
+
+Explanation:
+
+min() function compares the two numbers a and b.
+So, it returns 3 as the smaller value
+
+Type-2
+Using Conditional Statements
+
+a=16
+b=3
+
+if a<b:
+   print(a)
+else:
+  print(b)
+
