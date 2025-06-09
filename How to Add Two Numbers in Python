@@ -1,0 +1,38 @@
+Type-1  Using the "+" Operator
++ operator is the simplest and most direct way to add two numbers . It performs standard arithmetic addition between two values and returns the result
+
+a=5
+b=8
+res=a+b
+print(res)
+
+
+Type-2 That a, b input now taking by user using input() function
+
+#taking user input
+a=input("First number: ")
+b=input("Second number: ")
+
+#Converting input to int and add,any input type we can take int , float 
+ res=int(a)+int(b)
+
+print(res)
+
+Explanation: This code takes user input as strings, converts them to floats using float(), adds them and stores the sum in res.
+
+Type-3 Using Function
+
+Functions help organize code into reusable blocks. By defining a function, we can call it multiple times with different values, making our program more structured and efficient.
+
+# function to add two numbers
+def add(a,b):
+    return a+b
+
+# initializing numbers
+a=8
+b=9
+
+# calling function
+res=add(a,b)
+
+print(res)
