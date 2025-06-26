@@ -1,0 +1,24 @@
+Variable- Variable like a container that holds data. 
+         Creating a variable is like creating a placeholder in memory and assigning it some value.
+
+Exmaple---  a=1
+            b=True
+            c="Anjali"
+            d=None
+
+What Is Data Type ?
+ Data Type  specifies the type of value a variable holds.This is required in programming to do various operation without causing an error.
+
+1. Numeric Data ---  int:3,-8,0
+                    float: 7.354,-0.821,0.0000001
+                    complex=6+2i
+
+2. Text Data ----    str:"Hello World" ,"Python Programming"
+
+3. Boolean Data ----  Boolean data consists of values True or False.
+
+4.Sequenced Data ----  list tuple
+
+5. Mapped Data --- dict
+
+Note- In Python everything is object, that thing we see in object oriented session.
