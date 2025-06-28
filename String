@@ -1,0 +1,11 @@
+String--- In python, anything you enclose between single or double quotation marks is considered a string.
+            A string is essentially a sequence or array of textual data.
+Example- name="Anjali"
+         print("Hello"+name)
+
+Note-- It does not matter whether you enclose your string in single or double quotes, the output remains the same.
+
+Multiline String- using '''    ''' that enclose.
+
+Note--- Accessing Characters of a string -
+           In python, string is like an array of characters
