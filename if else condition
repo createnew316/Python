@@ -1,0 +1,11 @@
+if else--Here is if else condition either we can do or not
+
+Eaxmple-apple=200
+   burget=210
+   if(apple<=burget):
+        print("YEs")
+     else:
+        print("No")
+
+for mulitple condition is there we can use 
+     if elif else that way 
