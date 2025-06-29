@@ -1,0 +1,8 @@
+Length of string-- we can find the string using len() function.
+   Eaxmple-name="Anjali"
+           print(len(name))
+
+String as an Array- A string is sequence of character also called Array, thus we can access the elements of this array.
+Example- fruit="Mango"
+         print(fruit[0:4])
+   
