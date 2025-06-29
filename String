@@ -8,4 +8,10 @@ Note-- It does not matter whether you enclose your string in single or double qu
 Multiline String- using '''    ''' that enclose.
 
 Note--- Accessing Characters of a string -
-           In python, string is like an array of characters
+           In python, string is like an array of characters. We can access parts of string by using its index which start form 0.
+           example-print(name[0])
+We can use for loop also
+    for character in name:
+       print(character)
+
+   
