@@ -1,0 +1,26 @@
+String Methods-- Python provides a set of built-in methods.
+  Note-- Strings are immutable.Here we can not change string, but create a new string and change the string.
+
+1.upper()-convert to string upper case. 
+    Eaxmple-- name="Anjali"
+              print(name.upper())
+ 2.lower()-covert to string lower case.
+             print(name.lower())
+ 3.rstrip()--remove any trailing characters.
+             name="Anjali!!!!"
+             print(name.rstrip("!"))
+4.replace()- replace the string
+              print(name.replace("Anjali","Ajay"))
+5.capitalize()- The capitalize() method turns only the first character of string to uppercase and rest other character of string are turned of string 
+                 lower case,if first character already upper that method is not effect.
+                print(name.capitalize())
+6.center()-This method aligns the string to center as per the parameter.
+           print(name.center())
+7.count()-given the number of times value occured.
+          print(name.count("a"))
+8.find()-The find() method searches for the first occurance of given value and return the index where it is present. given value absent from string 
+          retrun -1.
+           print(name.find("a")
+
+9.index()- The index() method same like find(), but here if given value absent ,so throwing exception , not return -1.
+            print(name.index("A"))
