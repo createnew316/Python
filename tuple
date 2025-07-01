@@ -1,0 +1,18 @@
+In python Tuples- Tuples are ordered collection of data items.They store multiple items in a single variable.Tuple items are separated by commaas and enclose within round brackets().
+                  Tuples are unchangeable meaning we can not alter then after creation.
+
+Exmple: tup=(7,5,8,3)
+        print(tup)
+
+Some of the cases similar to list.
+
+Operation on Tuples in Python- Tuples are immutable, hence if you want to add, remove or change tuple items,then first you must convert the tuple to a list. Then perform 
+                               operation on that list and convert it back to tuple.
+
+Exmple-- countries=("India","Spain","Italy",England")
+          temp=list(Countries)
+          temp.append("Russia")
+          temp.pop(3)
+          temp[2]="Finland"
+          countries=tuple(temp)
+          print(countries)
