@@ -1,1 +1,40 @@
+List-- Lists are ordered collection of data items.
+       They stored multiple items in a single variable.
+       List items are separated by commas and enclosed within square brackets[].
+       Lists are changeable meaning we can alter them after creation.
 
+Exmple- l=[1,2,4,9,]
+        print(l)
+
+Note-A single list can contain items of different data types.
+
+List Index- Each item/element in a list has its own unique index.This index can be used to access any particular item from the list.
+            This first item has index[0], and second item has index [1], and as so on.
+
+Example-- print(l[0])
+
+Negative index-- Simliar to positive indexing, negative indexing is also used to access item,but from the end of the list.The last item has index[-1]
+                and sencond last index [-2] , as so on.
+If you want to print particular range of list.
+         print(l[2:4])
+but her if you want skip elements in between the range. 
+     Syntax: listname[start: end : jumpindex]
+
+List Comprehension-- list comprehension are used for creating new list from other iterables like lists, tuples,dictionaries,sets and even in arrays and strings.
+              Sytnax-List=[Expression(item) for item in iterable if Condition]
+                Expression: It is the item which being iterated.
+                Exmaple: lst=[i*i for i in range(3)]
+                         print(lst)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+List Method In python- 
+      1.list.sort()- This Method sorts the list in ascending order.The original list is updated.
+           lst=[9,4,8,2]
+           lst.sort()
+           print(lst)
+    2.reverse()- This method reverses the order of the list.
+    3.index()-This method returns the index of the first occurrence of the list item.
+    4.count()
+    5.copy()
+    6.append()
+    7.insert()-This method insert an item at the given index.
+    8.extend()-This method adds an entire list or any other collection datatype(set,tuple,dictionary)to the existing list.
