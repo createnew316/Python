@@ -1,0 +1,23 @@
+f-string In python -- It is new string formatting mechanism introduced by the PEP 489. It is also known as Literal String Interpolation or 
+                      more commonly as F-strings (f character preceding the string literal).
+                      When we prefix the string with the letter "f",the string becomes the f-string itself.The f-string can be formatted in much 
+                      same as the str.format() method.The f-string offers a convenient way to embed python expression inside string literals for 
+                      formatting.
+              Example-name="Anjali"
+                      age=23
+                      print(f"Hello , My name is {name},and I'm {age} years old"}
+
+                      Note-print(type(f"{2*30}"))
+                           that is type string ,not be int.
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Docstring in python- Python doctsring are the string literals that appear right after the definition of a function,method,class, or module.
+
+      def square(n):
+        '''Take in number n, returns the square of n'''
+        print(n**2)
+
+        square(5)
+        print(square.__doc__)
+
+Note-Doc string only define just before function defination.
