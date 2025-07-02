@@ -1,0 +1,9 @@
+Recursion-- In Python , we know that a function can call other function.IT is even possible for the function to call itself.These 
+            type of construct are termed as recursive function.
+  Example-- def factorial(n):
+              if(n==0 or n==1):
+                return 1
+              else
+                return n*factorial(n-1)
+
+               print(factorial(3))
