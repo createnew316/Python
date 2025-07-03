@@ -27,6 +27,29 @@ Set Method-
                                                s1.intersection_update(s2)
                                                print(s1,s2)
 
+3. isdisjoint()- The isdisjoint() method checks if items of given set are present in another set. This method return False if items are present ,else it return 
+                 True.
+
+4. issuperset() - The issuperset() method checks if all the items of particular set are present in the original set.It return True if all the items are present 
+                  else  it return False.
+
+5.add()-If you want to add a single item to the set use the add() method.
+
+6.update()-If you want to add more than one item, simply create another set or any other iterable object(list,tuple,dictionary) and use the update() method to 
+           add it into the existing set().
+
+7. remove()/discard()- we can use remove() and discard() methods to remove items from list.
+         note--Main Difference between remove() and discard() that , if we try to delete an item  which is not present in set,the remove() raise an error,whereas 
+         discard() does not raise any error.
+
+8.pop()-This method removes the last item of the set but the catch is that we don't know which item gets popped as sets are unordered. However, you can access
+        the popped item if you assign the pop() method to a variable.
+
+9. del - del is not method, rather it is a keyword which deletes the set entirely.
+       Note- There we don't want to delete the entire set,we just want to delete all item within in the set.
+
+10. clear(): This method clears all items in the set and prints an empty set.
+
 3.symmetric_difference() and symmetric_difference_update() : The symmetric_difference() and symmetric_difference_update() methods prints only items that are not
                                                            similar to both the sets.The set symmetric_difference() return a new set whereas symmetric_difference_update()
                                                            method update into the existing set from another set. 
