@@ -1,1 +1,20 @@
+Dictionaries - Dictionaries are ordered collection of data items.They store multiple items in single variable.'
+               Dictionaries items are key-value pairs that are separated by commas and enclosed within curly brackets{}.
 
+     Eaxmple: detail={'name':'Anjali','age':19, 'pass': 'Yes'}
+              print(detail)
+
+Accessing single values:
+              detail={'name':'Anjali','age':19, 'pass': 'Yes'}
+              print(detail['name'])
+              print(detail.get('name'))      
+Note-- if some detail not present but we are printing so print(details['name2']) throughing error, not print(details.get('name2'))
+        showing none.
+
+Accessing multiple values :
+                detail={'name':'Anjali','age':19, 'pass': 'Yes'}
+                print(detail[key]) 
+                print(detail[values])
+                
+                for key in detail.keys():
+                     print(detail[key])
