@@ -18,3 +18,4 @@ Accessing multiple values :
                 
                 for key in detail.keys():
                      print(detail[key])
+
