@@ -1,0 +1,9 @@
+importing in python - Module is imported, you can use any of the functions and variables defined in the module by using the dot notation.
+            Example- import math
+                     result = math.sqrt(5)
+                     print(result)
+ Note- You can also import multiple function or variable at once by separating them with comma :
+           from math import sqrt, pi   or from math import *
+             result=sqrt(3)
+             print(result)
+             print(pi)
