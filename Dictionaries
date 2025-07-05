@@ -19,3 +19,23 @@ Accessing multiple values :
                 for key in detail.keys():
                      print(detail[key])
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Dictionary Methods - 
+  1.update()-This Update methods updates the value of the key provided to it if the item already exits in the dictionary, else if creates a new key-value pair.
+Example- info={"name":"Anjali","age":23,'eligible':True}
+         print(info)
+         info.update({'age':20})
+         print(info)
+  2. clear() - The clear() methods removes all the items from the list.
+         info.clear()
+         print(info)
+ 3. pop() - The pop() method removes the key-value pair whose key is passed as a parameter.
+         info.pop('eligible')
+         print(info)
+4. popitem() - The popitem() method removes the last key-value pair from the dictionary.
+          info.popitem()
+          print(info)
+5. del - we can also use the del keyword to remove a dictionary item.
+          del info['age']
+          print(info)
+ Note - If key is not provided, the del keyword will delete the dictionary entirely.        
