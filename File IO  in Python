@@ -1,0 +1,13 @@
+Before we can perform any operation on a file, we must first open it.Python provides open() function.
+       f=open('myfile.txt','r')
+
+By default,the open() function returns a file object that can be used to read from or write to the file,depending on the mode.
+
+Modes in file-- There are various modes in which we can open files.
+
+1.read(r)
+2.write(w)
+3.append(a)
+4.create(x)
+5.text(t)
+6.binary(b)
