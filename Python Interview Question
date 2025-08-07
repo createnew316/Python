@@ -1,0 +1,24 @@
+What are Python's key features?
+   Easy to learn and read
+   Interpreted Language
+   Dynamically typed
+   Supports object-oriented and functional programming
+   Large standard library
+
+What is the diffrence between a list and tuple in python?
+   List : Mutable (can be changed), defined using []
+   Tuple: Immutable (cannot be changed),defined using ()
+
+What are the Python Data Type?
+  Some basic data types include:
+    int-Integer,float-Floating point number,str-String,bool-Boolean.
+    list,tuple,set,dict-Collection types
+
+What is the use of the self keyword in python?
+    Used in class methods to refer to the instance of the class
+    It allows access to instance variables and methods
+
+What is the difference between is and == in python?
+  == checks value equality
+  is checks identity(Whether two variables point to the same object in memory)
+
