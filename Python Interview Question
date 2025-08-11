@@ -22,3 +22,24 @@ What is the difference between is and == in python?
   == checks value equality
   is checks identity(Whether two variables point to the same object in memory)
 
+What is the difference between a for loop and a while loop ?
+  for loop -  Used when the number of iterations is known.
+  while loop - Used when the loop should continue until a condition is false.
+
+What is the purpose of indentation in python?
+    Python uses indentation to define blocks od code.
+    Incorrect indentation leads to syntax error.
+
+What is a dictionary in Python? How is it different from a list?
+    A dicitionary stored data in key-value pairs.
+    A list store data in ordered elements.
+
+Explain the difference between append() and extend() in python lists?
+   append() adds a single element to the end of the list.
+   extend() adds all elements of an iterable(like another list) to the list.
+
+What are Python's advantages compared to other programming languages?
+Easy syntax
+Large standard library
+Cross-platform compatibility
+Strong community support
